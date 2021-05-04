@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/fistName_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:hint="FirstName" />
+
+    <EditText
+        android:id="@+id/lastname_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:hint="LastName" />
+    <EditText
+        android:id="@+id/email_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+
+    <Button
+        android:id="@+id/sign_btn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="SignUp" />
+</LinearLayout>
